@@ -1,0 +1,16 @@
+#logo {
+    width: 350px;
+}
+
+#nawigationBar{
+    text-align: right;
+    margin-right: 50px;
+}
+.menuItem{
+    display: inline-block;
+}
+
+#logoFooter {
+    width: 150px;
+    opacity: 0.5;
+}

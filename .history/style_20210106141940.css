@@ -1,0 +1,15 @@
+#logo {
+    width: 350px;
+}
+
+#navigationBar{
+
+}
+.menuItem{
+    display: inline-block;
+}
+
+#logoFooter {
+    width: 150px;
+    opacity: 0.5;
+}

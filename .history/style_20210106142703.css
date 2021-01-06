@@ -1,0 +1,18 @@
+#logo {
+    width: 350px;
+}
+
+#nawigationBar{
+    background-color: #007BFF;
+    text-align: right;
+    margin-right: 50px;
+}
+.menuItem{
+    display: inline-block;
+    font-size: 18px;
+}
+
+#logoFooter {
+    width: 150px;
+    opacity: 0.5;
+}
