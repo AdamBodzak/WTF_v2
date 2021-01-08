@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap');
 
 * {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
@@ -8,8 +10,6 @@
 
 body {
     max-width: 1200px;
-    font-weight: 500;
-    font-family: 'Roboto', sans-serif;
     background-color: #E1E5F2;
     margin-left: auto;
     margin-right: auto;
@@ -21,6 +21,7 @@ body {
 }
 
 #nawigationBar{
+
     text-align: right;
     margin-right: 20px;
     height: 44px;
@@ -32,6 +33,7 @@ body {
 
 .menuItem{
     font-size: 18px;
+    font-weight: 300px;
     color: #0d6efd;
     text-decoration: none;
     padding: 10px;
@@ -40,6 +42,11 @@ body {
 .menuItem:hover {
     color: #FFF;
     background-color:#0d6efd;
+}
+
+#logoFooter {
+    width: 150px;
+    opacity: 0.7;
 }
 
 #hederSection {
@@ -51,42 +58,6 @@ body {
     text-align: justify;
 }
 
-#logoFooter {
-    width: 150px;
-    opacity: 0.5;
-}
-
-.footerElement {
-    display: inline-block;
-    margin: 10px;
-}
-
-#footerID {
-    position: relative;
-    padding: 0px 10px 10px 10px;
-    font-weight: 300;
-    font-size: 14px;
-    color: white;
-    background-color: #004070;
-}
-
-#kontakt {
-    position: absolute;
-    right: 0px;
-}
-
-#footerKontakt {
-    display: inline-block;
-    font-size: 12px;
-    margin: 10px 20px;
-}
-
-#footerHeder {
-    margin: 0px 20px;
-    font-size: 13px;
-}
-
-#footerLow {
-    font-size: 12px;
-    padding-top: 5px;
+footer {
+    padding-top: 20px;
 }

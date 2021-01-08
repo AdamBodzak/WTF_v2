@@ -63,7 +63,7 @@ body {
 
 #footerID {
     position: relative;
-    padding: 0px 10px 10px 10px;
+    padding: 20px 10px 10px 10px;
     font-weight: 300;
     font-size: 14px;
     color: white;
@@ -77,7 +77,7 @@ body {
 
 #footerKontakt {
     display: inline-block;
-    font-size: 12px;
+    font-size: 10px;
     margin: 10px 20px;
 }
 
@@ -87,6 +87,5 @@ body {
 }
 
 #footerLow {
-    font-size: 12px;
-    padding-top: 5px;
+    padding-top: 10px;
 }
