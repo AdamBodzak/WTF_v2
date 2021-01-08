@@ -6,25 +6,26 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
+    background-color: #E1E5F2;
 }
 
 body {
     max-width: 1200px;
-    background-color: #E1E5F2;
     margin-left: auto;
     margin-right: auto;
 }
 
 #logo {
     width: 300px;
-    margin: 10px;
+    padding-top: 20px;
 }
 
 #nawigationBar{
-
+    background-color: #BFDBF7;
     text-align: right;
-    margin-right: 20px;
+    padding-right: 50px;
     height: 44px;
+
 }
 
 #nawigationBar>li {
@@ -33,16 +34,10 @@ body {
 
 .menuItem{
     font-size: 18px;
-    font-weight: 300px;
-    color: #0d6efd;
+    color: black;
     text-decoration: none;
     padding: 10px;
-    border-radius: 5px;
-}
-
-.menuItem:hover {
-    color: #FFF;
-    background-color:#0d6efd;
+    background-color: #BFDBF7;
 }
 
 #logoFooter {
@@ -50,13 +45,12 @@ body {
     opacity: 0.7;
 }
 
-#hederSection {
+section {
     text-align: center;
-    padding: 20px;
 }
 
-#paragrafSection {
-    text-align: justify;
+section>h1 {
+    padding: 20px;
 }
 
 footer {
