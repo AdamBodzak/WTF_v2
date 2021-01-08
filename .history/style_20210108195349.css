@@ -52,10 +52,9 @@ body {
     padding-bottom: 10px;
 }
 
-#buttonS {
-    color: #0d6efd;
-    text-decoration: none;
-    padding: 10px;
+#button {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #logoFooter {
