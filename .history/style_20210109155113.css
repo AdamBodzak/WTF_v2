@@ -44,28 +44,22 @@ body {
 
 #hederSection {
     text-align: center;
-    padding: 20px 20px 0px 20px;
+    padding: 20px;
 }
 
 #paragrafSection {
     text-align: justify;
-    padding: 20px;
+    padding-bottom: 10px;
 }
 
-#buttonSection {
-    display: block;
-    margin: auto;
-    width: 250px;
-    text-align: center;
-    font-size: 18px;
+#buttonS {
     color: #0d6efd;
     text-decoration: none;
     padding: 10px;
 }
 
-#buttonSection:hover {
-    color: #FFF;
-    background-color:#0d6efd;
+#imageSVG {
+    background-image: url("./img/LogoWhite.svg");
 }
 
 #logoFooter {
@@ -80,7 +74,6 @@ body {
 
 #footerID {
     position: relative;
-    margin-top: 20px;
     padding: 0px 10px 10px 10px;
     font-weight: 300;
     font-size: 14px;
