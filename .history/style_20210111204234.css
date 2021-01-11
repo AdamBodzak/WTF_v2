@@ -22,7 +22,8 @@ body {
 
 #nawigationBar{
     display: flex;
-    justify-content: flex-end;
+    flex-flow: row;
+    justify-content: right;
     /* text-align: right;
     margin-right: 20px;
     height: 44px; */
@@ -30,6 +31,7 @@ body {
 
 #nawigationBar>li {
     display: block;
+    text-align: right;
 }
 
 .menuItem{

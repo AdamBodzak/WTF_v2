@@ -22,14 +22,15 @@ body {
 
 #nawigationBar{
     display: flex;
-    justify-content: flex-end;
+    flex-flow: row;
+
     /* text-align: right;
     margin-right: 20px;
     height: 44px; */
 }
 
 #nawigationBar>li {
-    display: block;
+    display: inline-block;
 }
 
 .menuItem{

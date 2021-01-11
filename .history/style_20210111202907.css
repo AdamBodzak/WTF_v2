@@ -21,8 +21,8 @@ body {
 }
 
 #nawigationBar{
-    display: flex;
-    justify-content: flex-end;
+    display: flexbox;
+    flex-flow: row;
     /* text-align: right;
     margin-right: 20px;
     height: 44px; */

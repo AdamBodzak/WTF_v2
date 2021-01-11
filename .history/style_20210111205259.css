@@ -64,7 +64,8 @@ body {
 
 #buttonSection {
     display: block;
-    text-align: center;
+    flex-flow: column;
+    /* text-align: center; */
     font-size: 18px;
     color: #0d6efd;
     text-decoration: none;
